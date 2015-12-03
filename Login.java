@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class Login {
     public static void main(String [] args){
-        JFrame login = new JFrame("Login");
+        final JFrame login = new JFrame("Login");
         JPanel panel = new JPanel();
         final JTextField loginName = new JTextField(20);
         JButton enter = new JButton("Login");
